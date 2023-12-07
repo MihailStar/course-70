@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "noUncheckedIndexedAccess": false,
+    "outDir": "./dist",
+    "removeComments": true
+  },
+  "exclude": ["dist", "node_modules"],
+  "extends": [
+    "@tsconfig/node18/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/esm/tsconfig.json"
+  ],
+  "include": ["./src/**/*.ts"]
+}
